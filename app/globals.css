@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-beige text-slateDeep font-sans antialiased;
+}
+
+.section-container {
+  @apply mx-auto w-full max-w-6xl px-6 py-16 md:px-10;
+}
